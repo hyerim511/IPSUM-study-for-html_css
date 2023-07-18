@@ -38,6 +38,7 @@ This project is the first project from the web development class at Tamwood coll
 
 ## Planning & Design
 
+! [Screenshot of a Main header design]
 (/screenshot/main-header.png)
 
 ### Customized body & skin product shop
@@ -60,21 +61,27 @@ Of course there were requirements for each page, but I wanted to make that each 
 I could only use HTML and CSS, but I didn't want it shows flat or boaring. I used some hover effects for avoid that. 
 
 ### Navigation
+! [Screenshot of a Navigation design]
 (/screenshot/nav.gif)
 
 ### Button hover effect 1 
+! [Screenshot of a Big Button design]
 (/screenshot/btn-booking.gif)
 
 ### Button hover effect 2
+! [Screenshot of a Small Button design]
 (/screenshot/btn-top.gif)
 
 ### Video play
+! [Screenshot of Video elements design]
 (/screenshot/video.gif)
 
 ### Image hover effect
+! [Screenshot of Image elements design]
 (/screenshot/staffs.gif)
 
 ### Map with image
+! [Screenshot of a Map design]
 (/screenshot/map.gif)
 
 
