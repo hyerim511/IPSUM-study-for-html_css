@@ -1,0 +1,761 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+/* 
+font-family: 'Caveat', cursive;
+font-family: 'Open Sans', sans-serif; 
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+:root {
+    --defaultColor: rgb(64, 56, 47);
+    --lightColor: rgb(236, 232, 227);
+    --mediumColor: rgb(116, 109, 101);
+}
+
+p {
+    line-height: 1.5;
+    font-size: 14px;
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+    color: var(--defaultColor);
+}
+
+blockquote {
+    font-style: italic;
+    font-family: 'Caveat', cursive;
+    color: var(--mediumColor);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--defaultColor);
+}
+
+/* NAVIGATION */
+
+nav {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav > section {
+    display: flex;
+    align-items: center;
+    column-gap: 1vw;
+}
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+h6 {
+    letter-spacing: 8px;
+    color: var(--mediumColor);
+}
+
+nav > ul {
+    width: 40%;
+    display: flex;
+}
+
+nav li {
+    width: 100%;
+    display: flex;
+}
+
+nav a {
+    width: 100%;
+    padding: 18%;
+    font-size: 13px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 4px;
+    transition: .6s;
+}
+
+nav a:hover {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    border-bottom: 15px solid var(--mediumColor);
+}
+
+nav .active {
+    padding-top: 25px;
+    padding-bottom: 10px;
+    border-bottom: 15px solid var(--mediumColor);
+    background-color: var(--mediumColor);
+    color: white
+}
+
+/* HEADER */
+
+header {
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    display: flex;
+}
+
+header > video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+header > section {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2vh;
+    background-color: rgba(64, 56, 47,.6);
+}
+
+h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 200;
+    letter-spacing: 40px;
+    padding-left: 40px;
+    color: white;
+}
+
+header p {
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-family: 'Caveat', cursive;
+    color: var(--lightColor);
+}
+
+/* MAIN */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 14vh;
+    padding-top: 14vh;
+}
+
+main > section {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 7vh;
+}
+
+h3 {
+    font-size: 24px;
+    letter-spacing: 10px;
+    padding-left: 10px;
+    text-transform: uppercase;
+    color: var(--mediumColor);
+    font-weight: 200;
+}
+
+small {
+    height: 1px;
+    width: 10%;
+    background-color: var(--mediumColor);
+}
+
+main figure {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+}
+
+figure > img {
+    width: 100%;
+}
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    height: 10vh;
+    background-color: var(--defaultColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > section {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p {
+    font-size: 13px;
+    font-weight: 200;
+    color: var(--mediumColor);
+}
+
+footer span {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 10px;
+}
+
+footer aside {
+    display: flex;
+    column-gap: 2vw;
+}
+
+footer a {
+    color: var(--defaultColor);
+    background-color: var(--mediumColor);
+    border: 1px solid var(--mediumColor);
+    width: 1.5vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a:hover {
+    background-color: transparent;
+    color: var(--lightColor);
+    border-color: var(--lightColor);
+}
+ 
+
+/* HOME */
+
+.nature > section {
+    display: flex;
+    column-gap: 4vw;
+}
+
+.nature article {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5vh;
+}
+
+.nature aside {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    position: relative;
+}
+
+.nature video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+.nature strong {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    outline: 6px double var(--lightColor);
+}
+
+.nature article:nth-child(1) strong {
+    background-image: url("../img/nature-1.jpg");
+}
+
+.nature article:nth-child(2) strong {
+    background-image: url("../img/nature-2.jpg"); 
+}
+
+.nature article:nth-child(3) strong {
+    background-image: url("../img/nature-3.jpg"); 
+}
+
+.nature article strong:hover {
+    background-image: none;
+}
+
+.review {
+    width: 100%;
+    background-color:var(--lightColor);
+    padding-top: 10vh;
+    padding-bottom: 14vh;
+    position: relative;
+}
+
+.review > article {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 2vw;
+    row-gap: 3vh;
+}
+
+.review aside {
+    background-color: white;
+    width: 40%;
+    padding: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 1vw;
+    row-gap: 2vh;
+    box-shadow: 0px 10px 10px -10px rgba(64, 56, 47,.8);
+}
+
+.review time {
+    font-size: 13px;
+}
+
+.review p {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.review blockquote {
+    width: 100%;
+    padding-left: 10%;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.review > aside {
+    position: absolute;
+    width: 90%;
+    height: 70%;
+    background-color: transparent;
+    box-shadow: none;
+    justify-content: right;
+    align-items: flex-end;
+}
+
+.review > aside > a {
+    border: 1px solid var(--mediumColor);
+    /* border-radius: 50%; */
+    width: 10vh;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: .6s;
+}
+
+.review > aside > a:hover {
+    border-radius: 50%;
+}
+
+
+/* ABOUT */
+
+.about {
+    background-image: url("../img/about.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.philosophy > blockquote {
+    border-top: 4px double var(--lightColor);
+    border-bottom: 4px double var(--lightColor);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 2vh;
+    padding: 5%;
+}
+
+.philosophy p {
+    width: 60%;
+    font-family: 'Caveat', cursive;
+    font-size: 24px;
+    text-align: center;
+}
+
+.philosophy i {
+    width:80%;
+    font-size: 30px;
+}
+
+.philosophy i:nth-child(3) {
+    text-align: right;
+}
+
+.people > article {
+    display: flex;
+    column-gap: 6vw;
+}
+
+.people img {
+    transition: .6s;
+}
+
+.people img:hover {
+    rotate: 10deg;
+}
+
+.people figcaption {
+    text-align: center;
+}
+
+.people h5 {
+    font-size: 18px;
+}
+
+.people p {
+    text-align: center;
+}
+
+.location {
+    padding-bottom: 10vh;
+}
+
+.location > section {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    background-image: url("../img/map.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 180%;
+    transition: .6s;
+}
+
+.location > section:hover {
+    background-size: 250%;
+}
+
+.location figure {
+    position: relative;
+}
+
+.location figcaption {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.location aside {
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(64, 56, 47,.7);
+    color: white;
+}
+
+.location aside > i {
+    font-size: 50px;
+}
+
+.location aside > p {
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+}
+
+.location article {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end; 
+}
+
+.location ul {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2vw;
+    background-color: rgba(64, 56, 47,.9);
+}
+
+.location li {
+    display: flex;
+    color: var(--lightColor);
+    align-items: center;
+    column-gap: 1vw;
+}
+
+.location a {
+    color: var(--lightColor);
+}
+
+.location a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* PROCESS */
+
+.process {
+    background-color: var(--defaultColor);
+}
+
+.process > section {
+    background-color: transparent;
+}
+
+table {
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+caption {
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+    background-image: linear-gradient(to top, white, var(--lightColor));
+    padding: 5%;
+}
+
+th, td {
+    padding: 2%;
+}
+
+tfoot td {
+    text-align: right;
+}
+
+tfoot a:hover {
+    text-decoration: underline;
+}
+
+tbody {
+    border: 4px double var(--lightColor);
+}
+
+.step1 tbody td {
+    border-bottom: 1px solid var(--lightColor);
+}
+
+.step1 tbody td:first-child {
+    width: 20%;
+    text-align: center;
+    font-weight: 600;
+}
+
+.step1 tbody td:last-child {
+    width: 30%;
+    text-align: center;
+}
+
+.step2 tbody td {
+    text-align: center;
+}
+
+.step2 tbody td:nth-child(2) {
+    border-right: 1px solid var(--lightColor);
+}
+
+.step2 tbody tr:first-child {
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: var(--lightColor);
+}
+
+main > aside {
+    padding-bottom: 10vh;
+    width: 14%;
+    display: flex;
+}
+
+main > aside > a {
+    background-color: var(--mediumColor);
+    color: white;
+    width: 100%;
+    padding: 10%;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: .6s;
+}
+
+main > aside > a:hover {
+    background-color: var(--defaultColor);
+    border-radius: 50%;
+}
+
+/* BOOKING */
+
+.booking > section {
+    border: 10px solid var(--lightColor);
+    box-sizing: border-box;
+    background-color: transparent;
+}
+
+.booking h1,
+.booking p {
+    color: var(--mediumColor);
+}
+
+.form {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10vh;
+    padding-bottom: 14vh;
+}
+
+form {
+    width: 100%;
+}
+
+fieldset {
+    display: flex;
+    border: 4px double var(--lightColor);
+    padding: 5%;
+}
+
+legend {
+    text-align: center;
+    width: 25%;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    padding-left: 10px;
+    color: var(--mediumColor);
+}
+
+form:nth-child(2) legend {
+    width: 40%;
+}
+
+fieldset > section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 4vh;
+    padding: 3%;
+    width: 100%;
+}
+
+fieldset aside {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+    width: 48%;
+}
+
+fieldset aside:last-child {
+    width: 100%;
+}
+
+fieldset > article {
+    width: 40%;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3vh;
+    box-shadow: 0px 0px 50px -40px var(--defaultColor);
+}
+
+fieldset > article > aside {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+[type="submit"] {
+    padding: 5%;
+    width: 68%;
+    background-color: var(--mediumColor);
+    border: 0px none transparent;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: .6s;
+}
+
+[type="submit"]:hover {
+    background-color: var(--defaultColor);
+}
+
+[type="reset"] {
+    padding: 5%;
+    width: 30%;
+    border: 3px solid var(--mediumColor);
+    color: var(--mediumColor);
+    background-color: transparent;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: .6s;
+}
+
+[type="reset"]:hover {
+    background-color: var(--mediumColor);
+    color: white;
+}
+
+input, select {
+    padding: 2%;
+    border: 0px none transparent;
+    border-bottom: 1px solid var(--mediumColor);
+    background-color: transparent;
+}
+
+textarea {
+    width: 96%;
+    height: 30vh;
+    resize: none;
+    padding: 2%;
+    border: 1px solid var(--mediumColor);
+    background-color: transparent;
+}
+
+::placeholder {
+    color: var(--mediumColor);
+}
+
+label, h5 {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+form i {
+    color: coral;
+    font-size: 10px;
+}
+
+.choose {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 1vw;
+}
+
+.choose > h5 {
+    width: 100%;
+}
+
+.choose > label {
+    font-weight: 400;
+}
+

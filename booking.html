@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPSUM - FINAL PROJECT</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <section>
+            <h2>
+                ipsum
+            </h2>
+            <h6>
+                body & skin
+            </h6>
+        </section>
+        <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="process.html">process</a></li>
+            <li><a href="booking.html" class="active" target="_blank">booking</a></li>
+        </ul>
+    </nav>
+    <header class="booking">
+        <section>
+            <h1>booking</h1>
+            <p>
+                make your own body & skin care products
+            </p>
+        </section>
+    </header>
+    <!-- BOOKING CONTENT -->
+    <main>
+        <section class="form">
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>for Booking</legend>
+                    <section>
+                        <aside>
+                            <label for="date">Date <i class="fa-solid fa-feather-pointed"></i></label>
+                            <input type="date" name="date" id="date" required>
+                        </aside>
+                        <aside>
+                            <label for="time">Time <i class="fa-solid fa-feather-pointed"></i></label>
+                            <input type="time" name="time" id="time" required>
+                        </aside>
+                        <aside class="choose">
+                            <h5>Product type</h5>
+                            <input type="checkbox" name="product" id="product1" value="product1">
+                            <label for="product1">Product 1</label>
+                            <input type="checkbox" name="product" id="product2" value="product2">
+                            <label for="product2">Product 2</label>
+                            <input type="checkbox" name="product" id="product3" value="product3">
+                            <label for="product3">Product 3</label>
+                        </aside>
+                        <aside>
+                            <label for="material">Main material</label>
+                            <select name="material" id="material">
+                                <option value="-" disabled selected>Choose one</option>
+                                <optgroup label="moisture">
+                                    <option value="sheabutter">shea butter</option>
+                                    <option value="aloevera">aloe vera</option>
+                                </optgroup>
+                                <optgroup label="scent">
+                                    <option value="lavender">lavender</option>
+                                    <option value="citrus">citrus</option>
+                                </optgroup>
+                            </select>
+                        </aside>
+                        <aside>
+                            <label for="number">How many do you need?</label>
+                            <input type="number" name="number" id="number">
+                        </aside>
+                        <aside class="choose">
+                            <h5>Need wrapping?</h5>
+                            <input type="radio" name="wrapping" id="yes" value="yes">
+                            <label for="yes">Yes</label>
+                            <input type="radio" name="wrapping" id="no" value="no">
+                            <label for="no">No</label>
+                            <input type="radio" name="wrapping" id="later" value="later">
+                            <label for="later">I'll choose later</label>
+                        </aside>
+                        <aside>
+                            <label for="message">Give me details</label>
+                            <textarea name="message" id="message" placeholder="Your message"></textarea>
+                        </aside>
+                    </section>
+                    <article>
+                        <label for="userName">Name <i class="fa-solid fa-feather-pointed"></i></label>
+                        <input type="text" name="userName" id="userName" required>
+                        <label for="email">Email <i class="fa-solid fa-feather-pointed"></i></label>
+                        <input type="email" name="email" id="email" required>
+                        <label for="phone">Phone <i class="fa-solid fa-feather-pointed"></i></label>
+                        <input type="tel" name="phone" id="phone" required>
+                        <aside>
+                            <input type="reset" value="Reset">
+                            <input type="submit" value="Send">
+                        </aside>
+                    </article>
+                </fieldset>
+            </form>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>need any other help?</legend>
+                    <article>
+                        <label for="userName">Name <i class="fa-solid fa-feather-pointed"></i></label>
+                        <input type="text" name="userName" id="userName" required>
+                        <label for="email">Email <i class="fa-solid fa-feather-pointed"></i></label>
+                        <input type="email" name="email" id="email" required>
+                        <label for="phone">Phone <i class="fa-solid fa-feather-pointed"></i></label>
+                        <input type="tel" name="phone" id="phone" required>
+                        <aside>
+                            <input type="reset" value="Reset">
+                            <input type="submit" value="Send">
+                        </aside>
+                    </article>
+                    <section>
+                        <aside>
+                            <label for="category">Category</label>
+                            <select name="category" id="category">
+                                <option value="-" disabled selected>Choose category</option>
+                                <option value="Product">Product</option>
+                                <option value="Product">Service</option>
+                                <option value="Product">Contact</option>
+                                <option value="Product">Other</option>
+                            </select>
+                        </aside>
+                        <aside>
+                            <label for="subject">Title <i class="fa-solid fa-feather-pointed"></i></label>
+                            <input type="text" name="subject" id="subject" placeholder="Title" required>
+                        </aside>
+                        <aside>
+                            <label for="help">How can I help you? <i class="fa-solid fa-feather-pointed"></i></label>
+                            <textarea name="help" id="help" placeholder="Your message" required></textarea>
+                        </aside>
+                    </section>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <!-- BOOKING CONTENT END -->
+    <footer>
+        <section>
+            <p>
+                <span>ipsum</span> Copyright &copy; 2023 Hyerim Kim
+            </p>
+            <aside>
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+            </aside>
+        </section>
+    </footer>
+</body>
+</html>
