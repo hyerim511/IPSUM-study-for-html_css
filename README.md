@@ -2,8 +2,6 @@
 
 This project is the first project from the web development class at Tamwood collage.
 
-```Built with HTML & CSS 
-
 
 ## Requirements
 
