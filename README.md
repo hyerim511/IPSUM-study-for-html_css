@@ -5,7 +5,7 @@ This project is the first project from the web development class at Tamwood coll
 
 ## Requirements
 
-- Make a company website use HTML & CSS
+- Make a company website using HTML & CSS
 
 - Include 4 HTML pages
     - Main
@@ -16,7 +16,7 @@ This project is the first project from the web development class at Tamwood coll
 - Use Semantic HTML
 
 - Navigation
-    - Hover changed menu
+    - Hover changes the menu
     - Open Contact page in a new tab
 
 - Hero section
@@ -26,60 +26,60 @@ This project is the first project from the web development class at Tamwood coll
     - Contact : White background with a border
 
 - Main page
-    - Use at least two aside, figure with figcation, video with source, time tags.
+    - Use at least two aside tags, figure with figcation, video with source, and time tags.
 
 - Table page
-    - Use thead, tbody, tfoot, caption tags.
+    - Use thead, tbody, tfoot, and caption tags.
 
 - Contact page
-    - Use form with method, select with opt group, date, time, radio, textarea, number, submit, reset tags. 
-    - Some input should be required. 
+    - Use form with method, select with optgroup, date, time, radio, textarea, number, submit, and reset tags. 
+    - Some inputs should be required. 
 
 
 ## Planning & Design
 
-![Screenshot of a Main header design](/screenshot/main-header.png)
+![Screenshot of the Main header design](/screenshot/main-header.png)
 
-### Customized body & skin product shop
-It started from making a made-up company. I made a customized body product shop called "ipsum" because cosmetic has many royalty free resources and it can include some informations of ingredients and booking system for visit shop. 
+### Customized Body & Skin Product Shop
+It started with creating a fictional company. I created a customized body product shop called "ipsum" because the cosmetic industry has many royalty-free resources and it can include some informations about ingredients and a booking system for visit the shop. 
 
-### Nutral design
-The concept of this shop is "make your own body & skin care products" with good ingredients. To make sure the concept, I chose nutral design tone. Primary color is '#40382f', and used '#ece8e3', '#746d65' with light background. 
+### Neutral Design
+The concept of this shop is "make your own body & skin care products" with good ingredients. To reflect this concept, I chose neutral design tone. The primary color is `#40382f`, and I used `#ece8e3` and `#746d65` with a light background. 
 
-### Planning for each page
-Of course there were requirements for each page, but I wanted to make that each page has each proper function. So I made each page as below:
+### Planning for Each Page
+While there were requirements for each page, I also wanted to ensure that each page had its proper function. So I designed each page as follows:
 
-- Main : Main introduction with videos, including reviews from customers. 
-- About : About shop and staffs. Specific information about the shop.
-- Process(Table) : Information about processes and ingredients for making product. 
-- Booking(Contact) : Forms for booking to make the product, asking questions. 
+- Main : Provides an introduction with videos, including customer reviews. 
+- About : Contains information about the shop and staff. Provides specific details about the shop.
+- Process(Table) : Offers information about the processes and ingredients for making products. 
+- Booking(Contact) : Includes forms for booking product-making sessions and asking questions. 
 
 
 ## Features
 
-I could only use HTML and CSS, but I didn't want it shows flat or boaring. I used some hover effects for avoid that. 
+Although I could only use HTML and CSS, I didn't want the website to appear flat or boring. To avoid that, I implemented some hover effects. 
 
 ### Navigation
-![Screenshot of a Navigation design](/screenshot/nav.gif)
+![Screenshot of the Navigation design](/screenshot/nav.gif)
 
 ### Button hover effect 1 
-![Screenshot of a Big Button design](/screenshot/btn-booking.gif)
+![Screenshot of the Big Button design](/screenshot/btn-booking.gif)
 
 ### Button hover effect 2
-![Screenshot of a Small Button design](/screenshot/btn-top.gif)
+![Screenshot of the Small Button design](/screenshot/btn-top.gif)
 
 ### Video play
-![Screenshot of Video elements design](/screenshot/video.gif)
+![Screenshot of the Video elements design](/screenshot/video.gif)
 
 ### Image hover effect
-![Screenshot of Image elements design](/screenshot/staffs.gif)
+![Screenshot of the Image elements design](/screenshot/staffs.gif)
 
 ### Map with image
-![Screenshot of a Map design](/screenshot/map.gif)
+![Screenshot of the Map design](/screenshot/map.gif)
 
 
 ## Updates
 
-- Apr 9 ~ Apr 14, 2023 : First edit
-- Jul 18, 2023 : Adding README and make a repository
+- Apr 9 - Apr 14, 2023 : First edit
+- Jul 18, 2023 : Added README and created a repository
 
